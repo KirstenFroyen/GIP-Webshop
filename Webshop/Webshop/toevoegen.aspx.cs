@@ -56,5 +56,10 @@ namespace Webshop
             }
 
         }
+
+        protected void btnTerug_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("default.aspx");
+        }
     }
 }

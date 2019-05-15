@@ -54,7 +54,18 @@
             <br />
             Aantal te bestellen exemplaren van dit item:<asp:TextBox ID="txtbAantal" runat="server" CssClass="form-control" Width="80%" Wrap="False"></asp:TextBox>
             <br />
-            <asp:Button ID="btnToevoegenAanMand" runat="server" OnClick="btnToevoegenAanMand_Click" Text="Voeg toe aan mandje..." CssClass="btn btn-success" />
+            <table>
+                <tr>
+                    <td>
+                        <asp:Button ID="btnToevoegenAanMand" runat="server" OnClick="btnToevoegenAanMand_Click" Text="Voeg toe aan mandje..." CssClass="btn btn-success" />
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    </td>
+                    <td>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <asp:Button ID="btnTerug" runat="server" Text="Terug naar catalogus..." OnClick="btnTerug_Click" />
+                    </td>
+                </tr>
+            </table>
             <br />
             <br />
             
