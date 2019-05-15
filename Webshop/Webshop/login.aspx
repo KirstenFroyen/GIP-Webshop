@@ -4,6 +4,9 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
+<link href="Stijlen/css/background.css" rel="stylesheet" />
+<link href="Stijlen/css/bootstrap.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Nosifer" rel="stylesheet"/> 
     <title></title>
     <style type="text/css">
         .auto-style1 {
@@ -17,7 +20,13 @@
 <body>
     <form id="form1" runat="server">
         <div>
-            Login<br />
+            <div class="container-fluid">
+                <div class="jumbotron" style ="border:1px solid #888; box-shadow:0px 2px 5px #ccc; color:#28a745; font-size:28px; font-family: 'Nosifer', cursive; width:100%;">
+                     <span ><em><strong>Online GPU-shop</strong></em></span> - <strong><em>Login</em> </strong><br />
+                     <br />
+                </div>
+
+            </div>
             <br />
             <table class="auto-style1">
                 <tr>
